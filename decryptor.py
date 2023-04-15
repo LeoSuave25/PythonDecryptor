@@ -12,11 +12,11 @@ decrypted_text = encrypted_text.replace("*","a")
 # Replace "&" with "e"
 decrypted_text = decrypted_text.replace("&","e")
 # Replace "#" with "i"
-decrypted_text = decrypted_text.replace("&","e")
+decrypted_text = decrypted_text.replace("#","i")
 # Replace "+" with "o"
-decrypted_text = decrypted_text.replace("&","e")
+decrypted_text = decrypted_text.replace("+","o")
 # Replace "!" with "u"
-decrypted_text = decrypted_text.replace("&","e")
+decrypted_text = decrypted_text.replace("!","u")
 # Print the decrypted text
 print("\033[32m",decrypted_text,"\033[m")
 print("\033[32m","="*100,"\033[m")
